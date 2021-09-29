@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  display: flex;
-  flex-direction: row;
 }
 /* 
 .App-logo {
@@ -42,4 +40,10 @@
 .Apps {
   display: flex;
   flex-direction: row;
+}
+
+.contents {
+  width: 100%;
+  height: auto;
+  margin-left: 300px;
 }

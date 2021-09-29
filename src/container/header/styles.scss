@@ -2,7 +2,7 @@
 
 .header {
     width: 180px;
-    height: 1000px;
+    height: 100%;
     position: fixed;
     padding-left: 60px;
     padding-right: 60px;
@@ -16,13 +16,13 @@
     border-right: 1px solid #545454;
     background: #202738;
     .menu-img {
-        padding-top: 25px;
+        padding-top: 10px;
     }
     .menu {
-        padding-top: 100px;
+        padding-top: 90px;
     }
     .menu-footer {
-        padding-top: 100px;
+        padding-top: 70px;
         padding-bottom: 36px;
         p {
             color: #C3D4E4;

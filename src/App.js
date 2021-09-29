@@ -12,20 +12,20 @@ function App() {
       <BrowserRouter>
         <Switch>
           <div className="Apps">
-          <Header />
-          <div>
-            {
-              routers.map(router => (
-                <Route
-                  key={router.path}
-                  path={router.path}
-                  component={router.component}
-                  exact={router.exact}
-                />
-              ))
-            } 
-            <Footer />
-          </div>
+            <Header />
+            <div className="contents">
+              {
+                routers.map(router => (
+                  <Route
+                    key={router.path}
+                    path={router.path}
+                    component={router.component}
+                    exact={router.exact}
+                  />
+                ))
+              } 
+              <Footer />
+            </div>
           </div>
         </Switch>
       </BrowserRouter>
