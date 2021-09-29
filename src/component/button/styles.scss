@@ -1,0 +1,22 @@
+.cpn-button {
+    width: 180px;
+    height: 60px;
+    
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #c46b48;
+    &--orange {
+        background: #c46b48;
+        text-transform: uppercase;
+        &:hover {
+            background: #fff;
+        }
+    }
+    &--white {
+        background: none;
+        text-transform: capitalize;
+        &:hover {
+            background: #c46b48;
+        }
+    }
+}
