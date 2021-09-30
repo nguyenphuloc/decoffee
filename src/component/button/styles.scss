@@ -9,7 +9,8 @@
         background: #c46b48;
         text-transform: uppercase;
         &:hover {
-            background: #fff;
+            background: transparent;
+            color: #c46b48;
         }
     }
     &--white {

@@ -1,14 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
 .ctn-handmade {
-    .img {
-        // width: 100%;
-        // height: 700px;
-        // left: 0;
-        // margin: 0;
-        img {
-            display: block;
-            object-fit: cover;
-            width: 100%;
-            height: 700px;
+    background-image: url(../../assets/image/h1_hero1.jpg);
+    position: relative;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 900px;
+    .handmade {
+        width: 660px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top: 210px;
+        margin-left: 140px;
+        .handmade-content {
+            color: #fff;
+            width: 640px;
+            height: auto;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            h1 {
+                margin: 0;
+
+                font-size: 69px;
+                font-weight: 600;
+                align-content: flex-start;
+                font-family: 'Zilla Slab', serif;
+                letter-spacing: 3px;
+                span {
+                    padding-right: 15px;
+                    margin: 0;
+
+                    font-size: 69px;
+                    color: #c46b48;
+                    font-family: 'Zilla Slab', serif;
+                }
+            }
+        }
+        p {
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            color: #fff;
+
+            font-size: 20px;
+            font-weight: 500;
+            font-family: 'Zilla Slab', serif;
+            letter-spacing: 1px;
+            text-align: initial;
         }
     }
 }
