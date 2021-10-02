@@ -2,10 +2,126 @@
 
 .ctn-our-menu {
     width: 100%;
-    height: 730px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
     
     font-family: 'Zilla Slab', serif;
     background: #f5f5f5;
+    .our-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            font-size: 40px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        p {
+            width: 640px;
+
+            font-size: 16px;
+            font-weight: 400;
+            color: #636363;
+        }
+    }
+    .price-list {
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+        .list-coffee {
+            width: 380px;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+            .list {
+                font-size: 24px;
+                font-weight: 700;
+                color: #c46b48;
+                letter-spacing: 1px;
+                text-align: left;
+            }
+            .menu-item {
+                text-align: left;
+                h4 {
+                    font-size: 17px;
+                    color: #636363;
+                    span {
+                        font-size: 18px;
+                        color: #c46b48;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #636363;
+                }
+            }
+        }
+        .list-drinks {
+            width: 380px;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+            .list {
+                font-size: 24px;
+                font-weight: 700;
+                color: #c46b48;
+                letter-spacing: 1px;
+                text-align: left;
+            }
+            .menu-item {
+                text-align: left;
+                h4 {
+                    font-size: 17px;
+                    color: #636363;
+                    span {
+                        font-size: 18px;
+                        color: #c46b48;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #636363;
+                }
+            }
+        }
+        .list-food {
+            width: 380px;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+            .list {
+                font-size: 24px;
+                font-weight: 700;
+                color: #c46b48;
+                letter-spacing: 1px;
+                text-align: left;
+            }
+            .menu-item {
+                text-align: left;
+                h4 {
+                    font-size: 17px;
+                    color: #636363;
+                    span {
+                        font-size: 18px;
+                        color: #c46b48;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: #636363;
+                }
+            }
+        }
+    }
+    .menu-img {
+        position: absolute;
+        left: 50px;
+    }
 }
