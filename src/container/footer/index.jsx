@@ -6,7 +6,10 @@ export default function Footer() {
         <div className="ctn-footer">
             <div className="footer">
                 <div className="footer-address">
-                    <div></div>
+                    <h4>Contact Us</h4>
+                    <p></p>
+                    <p></p>
+                    <div></div> 
                 </div>
                 <div className ="footer-logo">
                     <div></div>
