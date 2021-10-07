@@ -7,8 +7,8 @@ export default function Footer() {
             <div className="footer">
                 <div className="footer-address">
                     <h4>Contact Us</h4>
-                    <p></p>
-                    <p></p>
+                    <p>0708 393 969</p>
+                    <p>30 Street. Bo Bao Tan Thang, Son Ky, Tan Phu, Ho Chi Minh City</p>
                     <div></div> 
                 </div>
                 <div className ="footer-logo">

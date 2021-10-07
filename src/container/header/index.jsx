@@ -22,7 +22,7 @@ export default function Header() {
                     children="Order Online"
                 />
                 <p>0708 393 969</p>
-                <p> 30 Street. Bo Bao Tan Thang, Son Ky, Tan Phu, Ho Chi Minh City</p>
+                <p>30 Street. Bo Bao Tan Thang, Son Ky, Tan Phu, Ho Chi Minh City</p>
                 <div className="menu-icon">
                     <FontAwesomeIcon icon={faVolleyballBall} />
                     <FontAwesomeIcon icon={faCannabis} className="icon"/>
