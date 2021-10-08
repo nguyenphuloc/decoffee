@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 .ctn-footer {
     width: auto;
     height: 530px;
     background: #f6f1ea;
+    .footer {
+        .footer-address {
+            p {
+                color: #C3D4E4;
+                font-family: 'Ubuntu', sans-serif;
+            }
+            .footer-icon {
+                display: flex;
+                flex-direction: row;
+                color: #C3D4E4;
+                justify-content: center;
+                .icon {
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
 }
